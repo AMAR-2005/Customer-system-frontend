@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useEffect } from "react"
 
 const AuthContext = createContext()
 
-export const API_BASE_URL = "http://localhost:8080/api"
+export const API_BASE_URL = "https://customer-system-backend.onrender.com/api"
 
 export const useAuth = () => {
   const context = useContext(AuthContext)
